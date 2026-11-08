@@ -2,6 +2,10 @@
 
 A local 2D browser game: you versus one to three computer rivals, using the original base-game rules and estates #1–9. All five phases, dice/worker actions, black-depot purchases, eight buildings, 26 knowledge tiles, bonus chains and final scoring are implemented.
 
+![Illustrative flat-design concept for the Burgundy game table](design-ideas/burgundy-flat-concept-v2.png)
+
+*Illustrative design concept; gameplay and current interface may differ.*
+
 ## Run
 
 Requires Node.js 22.12+.
