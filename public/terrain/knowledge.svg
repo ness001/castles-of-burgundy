@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="106" height="106" viewBox="0 0 106 106">
+<!-- Original printed terrain. Shared by DOM and Phaser; physical edges belong to the tile. -->
+<defs>
+  <clipPath id="face"><polygon points="53,2 97.17,27.5 97.17,78.5 53,104 8.83,78.5 8.83,27.5"/></clipPath>
+  <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff2d4" stop-opacity=".12"/><stop offset=".58" stop-color="#fff2d4" stop-opacity=".02"/><stop offset="1" stop-color="#654b1c" stop-opacity=".05"/></linearGradient>
+</defs>
+<g clip-path="url(#face)">
+  <path d="M0 0h106v106H0Z" fill="#bc8c32"/>
+  <path d="M0 26h106M0 52h106M0 78h106M28 0v106M78 0v106" fill="none" stroke="#956d27" stroke-opacity=".09" stroke-width=".6"/>
+  <path d="M52 15q-8 6 0 12 8-6 0-12ZM27 63q-8 6 0 12 8-6 0-12ZM79 65q-8 6 0 12 8-6 0-12Z" fill="none" stroke="#956d27" stroke-opacity=".16" stroke-width=".8"/>
+  <path d="M14 38h13m45-1h16M41 89h20M17 40h8m49-1h11" fill="none" stroke="#fff0c0" stroke-opacity=".23" stroke-width=".7" stroke-linecap="round"/>
+  <path d="M0 0h106v106H0Z" fill="url(#paper)"/>
+</g>
+<polygon points="53,2 97.17,27.5 97.17,78.5 53,104 8.83,78.5 8.83,27.5" fill="none" stroke="#a17b3b" stroke-opacity=".6" stroke-width=".8"/>
+</svg>

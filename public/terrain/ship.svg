@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="106" height="106" viewBox="0 0 106 106">
+<!-- Original printed terrain. Shared by DOM and Phaser; physical edges belong to the tile. -->
+<defs>
+  <clipPath id="face"><polygon points="53,2 97.17,27.5 97.17,78.5 53,104 8.83,78.5 8.83,27.5"/></clipPath>
+  <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff2d4" stop-opacity=".12"/><stop offset=".58" stop-color="#fff2d4" stop-opacity=".02"/><stop offset="1" stop-color="#34566a" stop-opacity=".05"/></linearGradient>
+</defs>
+<g clip-path="url(#face)">
+  <path d="M0 0h106v106H0Z" fill="#327c96"/>
+  <path d="M-8 9c9-3 14-3 23-1s15 3 25 0 17-3 27-1 24 3 47-1M-9 18c10-4 17-3 26-1s14 2 23-1 19-2 29 0 24 1 45-2M-6 25c8-2 13-3 23-1s17 4 28 1 16-4 27-2 22 4 41 0M-8 37c11-3 16-4 27-1s16 2 24-1 17-3 28 0 27 3 42-1M-8 44c9-2 15-3 23-1s17 3 29 0 20-3 29-1 21 1 40-2M-5 51c10-3 17-2 27 0s15 1 24-2 15-2 24 0 22 3 44-1M-9 62c9-3 17-4 27-1s18 3 29 0 17-3 27-1 23 3 39-1M-8 72c11-4 20-3 29 0s16 1 25-2 18-2 27 0 25 2 40-2M-8 79c8-2 16-3 25-1s15 3 25 0 18-3 29-1 24 3 42-1M-6 89c10-3 16-4 26-1s20 3 29 0 15-2 25 0 22 1 39-2M-9 96c9-2 16-3 27-1s17 3 27 0 17-3 27-1 24 2 41-1M-7 103c11-3 20-2 29 0s15 1 25-2 17-2 27 0 23 2 39-1" fill="none" stroke="#d8e7db" stroke-opacity=".3" stroke-width=".8" stroke-linecap="round"/>
+  <path d="M-8 12c9-3 14-3 23-1s15 3 25 0 17-3 27-1 24 3 47-1M-6 29c8-2 13-3 23-1s17 4 28 1 16-4 27-2 22 4 41 0M-8 40c11-3 16-4 27-1s16 2 24-1 17-3 28 0 27 3 42-1M-5 54c10-3 17-2 27 0s15 1 24-2 15-2 24 0 22 3 44-1M-9 65c9-3 17-4 27-1s18 3 29 0 17-3 27-1 23 3 39-1M-8 82c8-2 16-3 25-1s15 3 25 0 18-3 29-1 24 3 42-1M-6 92c10-3 16-4 26-1s20 3 29 0 15-2 25 0 22 1 39-2" fill="none" stroke="#34566a" stroke-opacity=".14" stroke-width=".7" stroke-linecap="round"/>
+  <path d="M-6 32c10-3 20-2 29 0s15 2 26-1 17-3 27-1 20 2 37-1M-8 57c9-2 16-1 26 1s17 1 27-2 18-2 28 0 24 2 40-1M-8 68c10-3 17-3 27-1s18 3 28 0 19-3 29-1 22 2 37-1M-7 85c9-2 17-2 27 0s16 2 26-1 16-3 26-1 24 2 41-1" fill="none" stroke="#d8e7db" stroke-opacity=".16" stroke-width=".55" stroke-linecap="round"/>
+  <path d="M0 0h106v106H0Z" fill="url(#paper)"/>
+</g>
+<polygon points="53,2 97.17,27.5 97.17,78.5 53,104 8.83,78.5 8.83,27.5" fill="none" stroke="#34566a" stroke-opacity=".6" stroke-width=".8"/>
+</svg>

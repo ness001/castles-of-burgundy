@@ -1,0 +1,14 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+.playwright-cli/
+.playwright-mcp/
+.DS_Store
+
+# Local-only research material and agent working notes
+CODEX_HANDOFF.md
+DEBUG_HANDOFF.md
+docs/audio-motion-iterations.md
+docs/audio-motion/
+docs/the-castles-of-burgundy-rulebook.pdf

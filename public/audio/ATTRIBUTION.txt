@@ -1,0 +1,188 @@
+Placement and tabletop foley - provenance verified 2026-09-30
+
+The six placement clips below use recorded sounds, not synthesis. Redistribution,
+commercial use and modification are permitted under the licenses below.
+Keep this file with distributions to provide the required CC BY credits.
+No endorsement by the original creators is implied.
+
+Common modifications: converted to mono, 44,100 Hz, 64 kbit/s MP3 using the
+already-installed FFmpeg 7.1/libmp3lame; source metadata removed; short fades
+added to avoid abrupt boundaries. Source recordings were otherwise retained
+without pitch changes. Durations below refer to decoded audio, not MP3 padding.
+
+ship.mp3 - 1.750 s - gentle wave/water wash
+  Work: Water Waves; wave_01_cc0-11505__transitking__wavesound.flac
+  Author: transitking; excerpt prepared/submitted by qubodup.
+  Source/license declaration: https://opengameart.org/content/water-waves
+  Original recording: https://freesound.org/people/transitking/sounds/11505/
+  Download: https://opengameart.org/sites/default/files/wave_01_cc0-11505__transitking__wavesound.flac
+  License: CC0 1.0 Universal.
+  License URL: https://creativecommons.org/publicdomain/zero/1.0/
+  Changes: whole supplied excerpt; mono downmix; 25 ms in/170 ms out fades.
+
+knowledge.mp3 - 0.550 s - book page turning/rustling
+  Work: 10 Book Page Flips; book_flip.1.ogg from book_flips_-_starninjas.zip
+  Author/recordist: StarNinjas (https://opengameart.org/users/starninjas).
+  Source/license declaration: https://opengameart.org/content/10-book-page-flips
+  Download: https://opengameart.org/sites/default/files/book_flips_-_starninjas.zip
+  License: CC0 1.0 Universal.
+  License URL: https://creativecommons.org/publicdomain/zero/1.0/
+  Changes: selected 0.18-0.73 s; -4 dB gain; transient limiter at 0.4 linear
+  amplitude, without automatic gain; 8 ms in/60 ms out fades.
+
+pig.mp3 - 0.580 s - pig oinks
+  Work: Pig Oinking.
+  Author: Mike Koenig.
+  Source/license declaration: https://soundbible.com/1220-Pig-Oinking.html
+  Download: https://soundbible.com/grab.php?id=1220&type=wav
+  License: Creative Commons Attribution 3.0 Unported (CC BY 3.0).
+  License URL: https://creativecommons.org/licenses/by/3.0/
+  Changes: whole recording; -14 dB gain; 6 ms in/40 ms out fades; padded
+  with silence to 0.580 s. Original sample rate was 11,025 Hz.
+
+sheep.mp3 - 0.950 s - sheep bleat
+  Work: Sheep Baa; sheep_baa.flac.
+  Author/recordist: mikewest; edited/submitted by AntumDeluge
+  (https://opengameart.org/users/antumdeluge).
+  Source/license declaration: https://opengameart.org/content/sheep-baa
+  Original recording: https://freesound.org/people/mikewest/sounds/414342/
+  Download: https://opengameart.org/sites/default/files/sheep_baa.flac
+  License: CC0 1.0 Universal.
+  License URL: https://creativecommons.org/publicdomain/zero/1.0/
+  Changes: whole supplied excerpt; 10 ms in/90 ms out fades; padded with
+  silence to 0.950 s. The supplied excerpt was already peak-normalized to -6 dB.
+
+cattle.mp3 - 2.901 s - cow moo
+  Work: Cow Moo.
+  Author: Mike Koenig.
+  Source/license declaration: https://soundbible.com/1778-Cow-Moo.html
+  Download: https://soundbible.com/grab.php?id=1778&type=wav
+  License: Creative Commons Attribution 3.0 Unported (CC BY 3.0).
+  License URL: https://creativecommons.org/licenses/by/3.0/
+  Changes: selected 0-3.55 s; pitch-preserving 1.25x tempo to retain the
+  call's full contour in under 3 s; -18 dB gain; 18 ms in/240 ms out fades;
+  short silence padding. Original sample rate was 32,000 Hz.
+
+chicken.mp3 - 2.050 s - hen/chicken clucks
+  Work: Chicken.
+  Author/source credited by SoundBible: nps.gov (US National Park Service).
+  Source/public-domain declaration: https://soundbible.com/871-Chicken.html
+  Download: https://soundbible.com/grab.php?id=871&type=wav
+  License/status: Public Domain, as expressly identified on the source page.
+  Status URL: https://soundbible.com/871-Chicken.html
+  NPS rights information: https://www.nps.gov/aboutus/disclaimer.htm
+  Changes: selected 0.30-2.35 s; -4 dB gain; 12 ms in/120 ms out fades.
+
+Verification: source pages explicitly identify the above rights and authors;
+CC0 and CC BY license URLs were checked. All six final MP3 files decode
+successfully. No unlicensed, noncommercial or paid source was used. Original
+Freesound links are upstream provenance provided by OpenGameArt; the verified
+license declarations and downloaded files for those excerpts are OpenGameArt's.
+
+TABLETOP FOLEY ADDITIONS - 2026-09-30
+
+These ten cues use licensed source samples. Crate loading, a gate, a mine hit,
+and a stamp are foley interpretations of the physical sounds listed below,
+not claims that a specific historical prop was field-recorded. No synthesized
+oscillators or generated audio were added.
+
+Common modifications: mono downmix; 44,100 Hz / 64 kbit/s MP3; source metadata
+removed; excerpting/layering as stated per file; measured gain toward -25 dBFS
+RMS, followed by a -8 dBFS peak limiter (1 ms attack, 35 ms release, no makeup
+gain), and short fades. MP3 encoding may slightly change peak values.
+Durations refer to decoded audio. Source pitch was not changed.
+
+Source WM - shared by tile, workers, cargo, build, castle, mine and stamp:
+  Work: 100 CC0 metal and wood SFX.
+  Author: rubberduck (https://opengameart.org/users/rubberduck).
+  Source/license declaration: https://opengameart.org/content/100-cc0-metal-and-wood-sfx
+  Download: https://opengameart.org/sites/default/files/100-CC0-wood-metal-SFX.zip
+  License: CC0 1.0 Universal.
+  License URL: https://creativecommons.org/publicdomain/zero/1.0/
+
+tile.mp3 - 0.380 s - small wooden token set-down foley
+  Provenance/author/license: Source WM above; wood_hit_05.ogg, rubberduck, CC0.
+  Changes: first 0.28 s; padded to 0.38 s; -2.594 dB gain; 3 ms in/60 ms out.
+
+coins.mp3 - 0.660 s - recorded coins jingling
+  Work: Coins Sounds; Coins sounds [OGG]/1_Coins.ogg inside the archive below.
+  Author/required credit: Jesús Lastra (jalastram).
+  Author URL: https://opengameart.org/users/jalastram
+  Source/license declaration: https://opengameart.org/content/coins-sounds
+  Download: https://opengameart.org/sites/default/files/Coins%20sounds%20%5BOGG%5D.zip
+  License: Creative Commons Attribution 3.0 Unported (CC BY 3.0).
+  License URL: https://creativecommons.org/licenses/by/3.0/
+  The author identifies this as coins recorded with a condenser microphone.
+  Changes: whole first coin sample; padded to 0.66 s; +7.044 dB gain;
+  3 ms in/80 ms out fades. Archive artwork is not included.
+
+dice.mp3 - 1.400 s - wooden die rolling on a wooden table
+  Work: Wooden dice on wodden table roll; Holzwürfel_auf_Holztisch_3.flac.
+  Author/recordist: Wuzzy (https://opengameart.org/users/wuzzy).
+  Source/license declaration: https://opengameart.org/content/wooden-dice-on-wodden-table-roll
+  Download: https://opengameart.org/sites/default/files/Holzw%C3%BCrfel_auf_Holztisch_3.flac
+  License: CC0 1.0 Universal.
+  License URL: https://creativecommons.org/publicdomain/zero/1.0/
+  Changes: whole third roll; padded to 1.40 s; +1.557 dB gain;
+  3 ms in/100 ms out fades.
+
+workers.mp3 - 0.560 s - two distinct wooden worker-token taps
+  Provenance/author/license: Source WM above; wood_hit_05.ogg, rubberduck, CC0.
+  Derived from the licensed tile.mp3 excerpt above, replacing the indistinct
+  footsteps cue on 2026-09-30. First 170 ms, high-pass at 220 Hz, +4 dB at
+  2.2 kHz; 3:1 compression with 2x makeup; 2 ms in/55 ms out fades.
+  Repeated at 230 ms with 0.9 linear gain; +7.5 dB combined gain, peak limiter
+  at -3.5 dBFS, padded to 560 ms. Encoded at 96 kbit/s MP3 (exception to the
+  shared 64 kbit/s setting). Decoded peaks remain below -3.9 dBFS.
+
+cargo.mp3 - 0.780 s - wooden crate loading/settling foley
+  Provenance/author/license: Source WM above; wood_falling_04.ogg and
+  wood_close_02.ogg, rubberduck, CC0.
+  Changes: first 0.34 s of wood falling plus wood close at 240 ms, with the
+  close at 0.7 linear gain; padded to 0.78 s; combined -6.125 dB gain;
+  4 ms in/120 ms out fades. This is a wood-drop/closure composite, not a boat.
+
+build.mp3 - 0.600 s - two construction hammer taps
+  Provenance/author/license: Source WM above; wood_hammer_01.ogg and
+  wood_hammer_02.ogg, rubberduck, CC0.
+  Changes: second hammer at 230 ms and 0.8 linear gain; padded to 0.60 s;
+  combined -9.023 dB gain; 3 ms in/90 ms out fades.
+
+castle.mp3 - 0.650 s - metal gate/latch closure foley
+  Provenance/author/license: Source WM above; metal_close_01.ogg,
+  rubberduck, CC0.
+  Changes: selected 0.01-0.66 s; -4.577 dB gain; 6 ms in/130 ms out fades.
+  The source describes metal closing, not a specifically recorded castle gate.
+
+mine.mp3 - 0.620 s - metal hammer strike with breaking rock
+  First source: Source WM above; hammer_02.ogg, rubberduck, CC0.
+  Second work: Breaking Rock; rock_break.ogg (downloaded as rock_break_0.ogg).
+  Second author: themightyglider; derived from a sound by SoundCollectah.
+  Source/license declaration: https://opengameart.org/content/breaking-rock
+  Original source cited there: https://freesound.org/people/SoundCollectah/sounds/109360/
+  Download: https://opengameart.org/sites/default/files/rock_break_0.ogg
+  Second-source license: CC0 1.0 Universal, as declared by OpenGameArt.
+  License URL: https://creativecommons.org/publicdomain/zero/1.0/
+  Changes: rock at 45 ms and 0.56 linear gain over hammer; padded to 0.62 s;
+  combined -5.788 dB gain; 3 ms in/130 ms out fades. Composite mining foley,
+  not a claim that the original tool was a pickaxe.
+
+bell.mp3 - 1.400 s - brief church bell toll
+  Work: Church Bells Ringing.
+  Author credited by SoundBible: Natalie.
+  Source/public-domain declaration: https://soundbible.com/253-Church-Bells-Ringing.html
+  Download: https://soundbible.com/grab.php?id=253&type=wav
+  License/status: Public Domain, expressly identified on the source page.
+  Status URL: https://soundbible.com/253-Church-Bells-Ringing.html
+  Changes: selected 0.23-1.63 s; -6.774 dB gain; 25 ms in/400 ms out fades.
+
+stamp.mp3 - 0.400 s - firm wooden stamp/gavel foley
+  Provenance/author/license: Source WM above; wood_hit_07.ogg, rubberduck, CC0.
+  Changes: whole wood impact; padded to 0.40 s; -9.256 dB gain;
+  3 ms in/70 ms out fades. The source is a wood impact, not an identified stamp.
+
+Addition verification: all ten new MP3s decoded successfully with FFmpeg;
+finite/non-silent samples, durations <=1.5 s, no full-scale output clipping.
+New assets total 67,716 bytes. The six original MP3s were not modified.
+No software was installed; no paid or noncommercial-licensed sources used.
+Auditory review and in-game Web Audio integration were not performed here.
